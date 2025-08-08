@@ -6,7 +6,9 @@ const Footer = () => {
       <div className="container py-10">
         <div className="flex w-full max-md:flex-col">
           <div className="flex flex-wrap items-center justify-center flex-1 gap-5 small-compact">
-            <p className="opacity-70">Copyright, Ubaid Raza</p>
+            <p className="transition-colors duration-500 text-p1 hover:text-p2 font-semibold">
+              Developed by Ubaid Raza
+            </p>
           </div>
           <div className="flex items-center justify-center sm:ml-auto">
             <p className="relative transition-all duration-500 legal-after mr-9 text-p5 hover:text-p1">
